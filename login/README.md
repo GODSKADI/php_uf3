@@ -9,16 +9,16 @@
   <li>1.2 Segundo creamos la BBDD con el comando:
       <li>mysql> CREATE  database world</li>
   <li/>
-
-2. Importar la BBDD login.sql con el comando:
-  __$ mysql -u "user_name" -p login < login.sql
-  __Enter password: "user_password"
+  <br />
+   <li>2. Importar la BBDD login.sql con el comando:
+      <li>$ mysql -u "user_name" -p login < login.sql</li>
+       <li>Enter password: "user_password"</li>
+  </li>
     
-    
-3. Remplazar la linea $conn = mysqli_connect('localhost','skadi','P@ssw0rd'); de los archivos login.php y login.php por:
+<li>3. Remplazar la linea $conn = mysqli_connect('localhost','skadi','P@ssw0rd'); de los archivos login.php y login.php por:
 <br />
-__$conn = mysqli_connect('localhost',"user_name", "user_password");
-
+<li>$conn = mysqli_connect('localhost',"user_name", "user_password");</li>
+</li>
 
 Informacion sobre los Usuarios de la BBDD:
 
