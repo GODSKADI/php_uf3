@@ -1,6 +1,6 @@
 <ul>
   <li>1. Crear una BBDD con el nombre "login", con el comando:</li>
-
+  <br />
   <li>1.1 Primero entramos al mysql con nuestro usuario, con el comando:
        <li>$ mysql -u "nombre" -p<li> 
        <li>Enter password: "contraseña"</li>
